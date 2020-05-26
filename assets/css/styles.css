@@ -1,0 +1,162 @@
+/* header styles */
+body {
+  background-color: #f3fdff;
+}
+
+.topbar {
+  /* background: url(../images/topbar.png) no-repeat; */
+  background-color: #f3fdff;
+  background-size: cover;
+}
+
+.topbar p {
+  font-size: 12px !important;
+  padding: 10px 0 0;
+  margin-bottom: 10px;
+}
+
+.callUs {
+  padding-left: 10px;
+}
+
+.callUs span {
+  margin-right: 15px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* .callUs p {
+  font-size: 12px;
+} */
+
+.searchCart span {
+  margin-right: 15px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.searchCart span img {
+  width: 32px;
+  height: auto;
+}
+
+.itemsImg span p {
+  font-size: 12px !important;
+}
+
+.socialmedia {
+  padding-top: 0;
+  margin-bottom: 10px;
+}
+
+.paymentsfooter {
+  margin-top: 50px;
+  margin-left: 0px;
+}
+
+/*  */
+
+.sh-prod-img {
+  width: 100px !important;
+  height: auto;
+}
+
+/* .sh-card-caro {
+  text-align: center !important;
+} */
+
+.dropdown {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 0;
+  padding-left: 0;
+
+  background-color: transparent;
+}
+
+.btn-secondary {
+  color: #000;
+  background-color: #6c757d00;
+  border-color: #6c757d;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #b7b7b7;
+  border-color: #737373;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.btn-sm {
+  width: 60px;
+  height: 40px;
+  font-size: 12px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+/* .sh-btnrow {
+  padding: 10px;
+  margin-left: 0;
+  margin-bottom: 0;
+} */
+
+.sh-price h5 {
+  font-size: 16px !important;
+}
+.sh-price h6 {
+  font-size: 15px !important;
+}
+
+.btn {
+  margin: 1px !important;
+  padding: 8px !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+  font-size: 15px;
+}
+
+.dropdown {
+  margin-bottom: 10px;
+}
+
+.addQnty {
+  border: grey solid 1px;
+}
+
+.rowCard {
+  width: 100px !important;
+}
+
+.card.sh-carditem {
+  width: 220px;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.afterfreshAriv {
+  margin-top: 20px;
+}
+
+.hline {
+  background-color: rgb(28, 154, 185);
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.shiping-sh {
+  border: grey solid 1px;
+}
+
+.subscribe {
+  height: 90px;
+  background-color: rgb(43, 211, 223);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
