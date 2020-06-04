@@ -73,6 +73,7 @@ body {
   padding-right: 10px;
   margin-left: 0;
   padding-left: 0;
+  border-radius: 0%;
 
   background-color: transparent;
 }
@@ -81,6 +82,7 @@ body {
   color: #000;
   background-color: #6c757d00;
   border-color: #6c757d;
+  border-radius: 0%;
 }
 
 .btn-primary {
@@ -89,6 +91,7 @@ body {
   border-color: #737373;
   margin-left: 0;
   margin-right: 0;
+  border-radius: 0%;
 }
 
 .btn-sm {
@@ -132,10 +135,9 @@ body {
   width: 100px !important;
 }
 
-.card.sh-carditem {
-  width: 220px;
-  margin-right: 0px !important;
-  margin-left: 0px !important;
+.sh-carditem {
+  width: 290px;
+  margin-left: 4px;
 }
 
 .afterfreshAriv {
@@ -143,7 +145,7 @@ body {
 }
 
 .hline {
-  background-color: rgb(28, 154, 185);
+  background-image: url("../images/bgetoffer.png");
   margin-top: 10px;
   margin-bottom: 5px;
   color: #ffffff;
@@ -151,7 +153,13 @@ body {
 }
 
 .shiping-sh {
-  border: grey solid 1px;
+  /* margin-top: 10px; */
+  margin-bottom: 10px;
+  border-top: rgb(148, 147, 147) solid 1px;
+  border-bottom: rgb(148, 147, 147) solid 1px;
+  height: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .subscribe {
@@ -159,4 +167,386 @@ body {
   background-color: rgb(43, 211, 223);
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+/* .nogapcol {
+  margin-left: 1px !important;
+  padding-left: 1px !important;
+  margin-right: 1px !important;
+  padding-right: 1px !important;
+} */
+
+.newsletter {
+  height: 90px;
+  background-color: rgb(11, 198, 245);
+}
+
+.neswssub {
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.sub2 {
+  background-color: black !important;
+  color: white;
+}
+
+.contactus {
+  margin: 0px;
+  padding-left: 60px;
+  color: aliceblue;
+  padding-top: 10px;
+}
+
+.inputsubs {
+  padding-top: 25px;
+  padding-right: 15px;
+}
+
+/* gangram code */
+.col {
+  padding: 12px 12px;
+}
+
+.sh-carditem {
+  width: 200px;
+  padding: 0px 0px;
+}
+
+.shippng-img {
+  width: 90px;
+  height: auto;
+
+  margin-bottom: 1px;
+}
+
+.shippng-img2 {
+  width: 60px;
+  height: auto;
+  padding: 4px;
+  margin-bottom: 50px;
+}
+
+.disc-span2 {
+  font-size: 18px;
+  color: #fff;
+}
+
+.img-span,
+.disc-span {
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.disc-span h6,
+p {
+  font-size: 14px;
+}
+
+.carditems {
+  margin-left: 1px;
+  margin-right: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.slide-fruits {
+  margin-top: 10px;
+}
+
+.buttons-div {
+  margin-top: 10px;
+}
+
+.quntyOption {
+  border: 1px solid black;
+  padding: 1px;
+}
+
+.qbtn,
+.qNum {
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+}
+
+.qbtn:hover,
+.qbtn select {
+  border: none;
+}
+
+.qbtn:focus {
+  outline: none;
+
+  color: chocolate;
+}
+
+.dropdown-toggle:focus {
+  background-color: transparent;
+  color: #000;
+  border: 0px;
+}
+
+.dropdown-toggle:hover {
+  background-color: transparent;
+  color: #000;
+  border: 0px;
+}
+
+.fresh-arivel-slide {
+  position: relative;
+}
+
+.fresh-arivel-slide-btn {
+  position: absolute;
+  top: 550px;
+  left: 1033px;
+}
+
+#logomain {
+  display: none;
+}
+
+/* .shadow {
+  border: 1.5px solid rgb(105, 105, 105);
+} */
+
+/* movile circle */
+
+/* ftuiiioooiuyttre */
+
+.MultiCarousel {
+  float: left;
+  overflow: hidden;
+  padding: 15px;
+  width: 100%;
+  position: relative;
+}
+.MultiCarousel .MultiCarousel-inner {
+  transition: 1s ease all;
+  float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item {
+  float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item > div {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background: #f1f1f1;
+  color: #666;
+}
+.MultiCarousel .leftLst,
+.MultiCarousel .rightLst {
+  position: absolute;
+  border-radius: 50%;
+  top: calc(50% - 20px);
+}
+.MultiCarousel .leftLst {
+  left: 0;
+}
+.MultiCarousel .rightLst {
+  right: 0;
+}
+
+.MultiCarousel .leftLst.over,
+.MultiCarousel .rightLst.over {
+  pointer-events: none;
+  background: #ccc;
+}
+
+.navList {
+  display: block !important;
+}
+
+/* ================mujkkk;--- */
+
+.MultiCarousel .MultiCarousel-inner .item > div {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background: none;
+  color: #666;
+}
+
+.arrowbtnn {
+  border: none;
+  background: none;
+}
+
+.MultiCarousel .leftLst.over,
+.MultiCarousel .rightLst.over {
+  pointer-events: none;
+  background: none;
+}
+
+/* mobile circle ends */
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  #logomain {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+  /* mobi header */
+
+  .imglog2 {
+    margin-right: 20px;
+  }
+
+  .loimgsh {
+    width: 150px;
+    height: auto;
+    margin-right: 0px;
+  }
+
+  .serchimg2 {
+    margin-left: 160px;
+    padding-right: 20px;
+  }
+
+  /* mobiherdr ends */
+
+  .mainheader2 {
+    display: none;
+  }
+  .payImg {
+    width: 40px;
+    height: auto;
+  }
+
+  #logomain {
+    display: inline-block;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 0px;
+  }
+  .serLogCart {
+    width: 400px;
+    margin: 0px;
+  }
+  .searchCart {
+    width: 10px;
+  }
+
+  .topbar-first {
+    width: 400px;
+  }
+
+  .topbar-first2 {
+    display: none;
+  }
+
+  .text-right {
+    text-align: left !important;
+  }
+  .callUs {
+    width: 100%;
+  }
+  .shiping-sh {
+    height: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+  .newsletter {
+    height: 300px;
+  }
+
+  /* ------------=1 slider-================= */
+
+  .fresh-arivel-slide {
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 15px;
+  }
+
+  /* natuals food */
+  .naturalfd {
+    margin-right: 0px;
+    margin-left: -15px;
+    padding-top: 1px;
+  }
+
+  /* .naturalfd2 {
+    margin-right: -15px;
+    margin-left: 0px;
+  } */
+
+  /* NATULAR FOOD CARD ITEMS */
+
+  .cardItemss {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .sh-carditem {
+    margin-left: 15px;
+    width: 100%;
+
+    /* align-items: center; */
+  }
+
+  .imagead {
+    margin-top: 11px;
+  }
+
+  .newsletter {
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 0px;
+    padding-bottom: 1px;
+    padding-bottom: 0%;
+    height: 220px;
+  }
+
+  .contactus {
+    align-items: left;
+    margin-right: 19px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .sh-carditem {
+    margin-right: 15px;
+    width: 100%;
+
+    /* align-items: center; */
+  }
+
+  .btn {
+    margin: 0px !important;
+    padding: 9px !important;
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+    font-size: 15px;
+  }
+
+  .hline {
+    width: 100%;
+    margin-left: 15px;
+  }
+  .afterfreshAriv {
+    margin-top: 5px;
+  }
+
+  .footer2 {
+    width: 100%;
+  }
+  .paymentsfooter {
+    padding-right: 2px;
+    padding-left: 2px;
+  }
 }
